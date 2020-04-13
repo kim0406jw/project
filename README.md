@@ -24,3 +24,6 @@ A neuron network consisting of a total of 17 convolution layers was used to impl
 Relu function was used as an activation function for each layer, and MSE was used as a loss function. Also, the last output adopts a sub-pixel model for up-scaling of resolution.
 
 # Result
+![result1](https://user-images.githubusercontent.com/46989642/79097973-f4e0d680-7d9b-11ea-815c-0965cf5c373a.png)
+
+-----------------------------------------------------------------------------------------------------------------
