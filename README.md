@@ -46,3 +46,5 @@ The images are up-scaled by sub-pixel technique.
 ![result2](https://user-images.githubusercontent.com/46989642/79098019-09bd6a00-7d9c-11ea-9289-7268034a3975.png)
 -----------------------------------------------------------------------------------------------------------------
 
+Low-resolution images were successfully converted to high-resolution images using Weighted ResNet. As mentioned in the introduction, if this model is applied to CCTV, it will be very helpful for crime prevention, and it will also directly and indirectly help autonomous driving software where image recognition is important.
+
