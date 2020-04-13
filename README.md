@@ -8,7 +8,7 @@ The super-resolution algorithm is expected to have a myriad of applications in v
 
 # What is 'Weighted ResNet'?
 
-The model was inspired by the following two papers.
+This model was inspired by the following two papers.
 -
 Deep Residual Learning for Image Recognition(Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun)
 
