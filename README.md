@@ -24,9 +24,15 @@ A neuron network consisting of a total of 17 convolution layers was used to impl
 Relu function was used as an activation function for each layer, and MSE was used as a loss function. Also, the last output adopts a sub-pixel model for up-scaling of resolution.
 
 # Training images
-
+![celeba](https://user-images.githubusercontent.com/46989642/79109246-f10c7e80-7db2-11ea-954b-afcd8582f42f.png)
+http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 I obtain training images from celebA dataset.(human face image dataset)
-I reduce size of all training image to 44*44*3
+I reduceed size of all training images to 44*44*3 for training.
+
+# Output images
+Size of output image(prediction) is 196*196*3.
+The images are up-scaled by sub-pixel technique.
+
 
 
 # Result
