@@ -28,4 +28,9 @@ Relu function was used as an activation function for each layer, and MSE was use
 -----------------------------------------------------------------------------------------------------------------
 ![result2](https://user-images.githubusercontent.com/46989642/79098019-09bd6a00-7d9c-11ea-9289-7268034a3975.png)
 -----------------------------------------------------------------------------------------------------------------
+![result3](https://user-images.githubusercontent.com/46989642/79098190-628d0280-7d9c-11ea-97a2-e5c0d629a904.png)
 -----------------------------------------------------------------------------------------------------------------
+psnr (EDSR) = 34.994
+psnr (WRESNET) = 32.125
+
+If you compare the EDSR model, which is one of the best models, and WRESNET (Weighted Renset), you can see an interesting fact. PNSR has higher EDSR but WRESNET made much more 'human-tic' predictions. So I think that EDSR is better for overall line, colour processing such as scenery and background but WRESNET is better for catching a mysterious 'features' in a human face.
