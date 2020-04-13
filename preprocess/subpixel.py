@@ -1,3 +1,5 @@
+#https://github.com/kairess/super_resolution/blob/master/Subpixel.py 를 참고하였습니다.
+
 from keras import backend as K
 from keras.layers import Conv2D
 
