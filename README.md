@@ -19,9 +19,15 @@ Densely Connected Convolutional Networks(Gao Huang, Zhuang Liu, Laurens van der 
 
 In Weighted ResNet, each layer is implemented as a residual layer to prevent over-fitting. In addition, the output of each residual block was added to the final layer by passing a specific weight to the final output. By doing so, it is expected that each feature of the image will be preserved and transmitted without being diluted, so that a more 'human-tic' image can be realized. Also, it is much simpler to implement than DenslyConnectedNet, making it easy for real-time image processing, and has the advantage of being able to stack deeper layers because overfitting does not occur easily.
 
-# Spec.
+# Experiement
 A neuron network consisting of a total of 17 convolution layers was used to implement the model(Weighted ResNet).
 Relu function was used as an activation function for each layer, and MSE was used as a loss function. Also, the last output adopts a sub-pixel model for up-scaling of resolution.
+
+# Training images
+
+I obtain training images from celebA dataset.(human face image dataset)
+I reduce size of all training image to 44*44*3
+
 
 # Result
 ![result1](https://user-images.githubusercontent.com/46989642/79097973-f4e0d680-7d9b-11ea-815c-0965cf5c373a.png)
