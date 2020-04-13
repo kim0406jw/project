@@ -34,8 +34,8 @@ I reduceed size of all training images to 44 * 44 * 3 for training.
 
 # Output images
 Size of output image(prediction) is 196 * 196 * 3.
-
 The images are up-scaled by sub-pixel technique.
+
 ![sub-pixel](https://user-images.githubusercontent.com/46989642/79109514-72fca780-7db3-11ea-9ed2-487c26068046.png)
 
 
