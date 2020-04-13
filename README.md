@@ -8,3 +8,11 @@ The super-resolution algorithm is expected to have a myriad of applications in v
 
 # What is 'Weighted ResNet'?
 
+The model was inspired by the following two papers.
+-
+Deep Residual Learning for Image Recognition(Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun)
+
+Densely Connected Convolutional Networks(Gao Huang, Zhuang Liu, Laurens van der Maaten)
+
+----------------------------------------------------------------------------------------------------------------
+![W_ResNet](https://user-images.githubusercontent.com/46989642/79096700-dc22f180-7d98-11ea-9e04-db9df4fbb299.png)
