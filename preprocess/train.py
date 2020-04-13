@@ -13,8 +13,7 @@ base_path = '/dataset‘
 x_train_list = sorted(glob.glob(os.path.join(base_path, 'x_train', '*.npy')))
 x_val_list = sorted(glob.glob(os.path.join(base_path, 'x_val', '*.npy')))
 
-#train_set의 사진들은 현재 전처리를 통해 176*176 크기의 사진을 pyramid_reduce를 통
-해 44*44의 크기로 만든 상태임.
+#train_set의 사진들은 현재 전처리를 통해 176*176 크기의 사진을 pyramid_reduce를 통해 44*44의 크기로 만든 상태.
 
 train_gen = DataGenerator(list_IDs=x_train_list, labels=None, batch_size=16,
 dim=(44,44), n_channels=3, n_classes=None, shuffle=True)
