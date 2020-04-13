@@ -1,4 +1,4 @@
-# Single Imeage Super Resolution Using Weighted ResNet.
+# Single Image Super Resolution Using Weighted ResNet.
 ![prediction](https://user-images.githubusercontent.com/46989642/79095895-a41aaf00-7d96-11ea-859d-0a05cdd4c86e.png)
 
 # Goal
