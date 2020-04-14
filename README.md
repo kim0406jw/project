@@ -28,9 +28,9 @@ Relu function was used as an activation function for each layer, and MSE was use
 
 http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
-I obtain training images from celebA dataset.(human face image dataset)
+I obtained training images from celebA dataset.(human face image dataset)
 
-I reduceed size of all training images to 44 * 44 * 3 for training.
+I reduced size of all training images to 44 * 44 * 3 for training.
 
 # Output images
 Size of output image(prediction) is 196 * 196 * 3.
